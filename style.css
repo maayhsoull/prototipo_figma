@@ -1,0 +1,79 @@
+:root{/* criando variaveis para as cores do projeto */
+    --primary-color: #EBDEC4;
+    --secundary-color: #F2B7EB;
+    --qertiary-color: #C0C954;
+    --quaternary-color:#FB5908;
+}
+body{
+    background-color: tomato;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    text-align: center;
+
+}
+.suas{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.asterisco{
+    margin: 30px 8.76px 0px 55px;
+    width: 42px
+}
+.su{
+    margin: 40.64px 8.76px 0px 0px;
+    text-align: center;
+    font-size: 18px;
+}
+.info{
+    margin: 33px 8.76px 0px 0px;
+
+}
+.linguagem{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;    
+}
+.word{
+    margin: 39px 11px 0px 0px;
+    width: 26px;
+    height: 26px;
+}
+.lin{
+    margin: 39px 11px 4px 0px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.login{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.logButton{
+    width: 239.32px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    margin: 25px 8px 0px 0px;
+}
+.log{
+    margin: 37px 10px 0px 0px;
+    font-size: 18px;
+    color: black;
+    text-align: end;
+}
+
+
+
+
