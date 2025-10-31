@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: tomato;
+    background-color: #EBDEC4;
 
 }
 header{
@@ -112,11 +112,23 @@ header{
     align-items: center;
     border-radius: 10px;
     color: white;
-    font-size: 20px;
-  
+    font-size: 20px; 
 }
-
-
+.homem{
+    width: 120px;
+    height: 120px;
+}
+.organico{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: black;
+ 
+}
 
 
 
