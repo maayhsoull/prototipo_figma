@@ -4,14 +4,15 @@
     --qertiary-color: #C0C954;
     --quaternary-color:#FB5908;
 }
+
 body{
     background-color: tomato;
+
 }
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
     text-align: center;
 
 }
@@ -31,6 +32,7 @@ header{
 }
 .info{
     margin: 33px 8.76px 0px 0px;
+    font-family: "Jomolhari", serif;
 
 }
 .linguagem{
@@ -73,6 +75,48 @@ header{
     color: black;
     text-align: end;
 }
+
+.Titulo-Principal{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 129px 339px 24px 328px;
+    font-size: 27px; /*o correto seria 45, apenas para teste de tela*/
+}
+
+.ConteinerRegister{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}   
+
+.Register{
+    width: 380px;
+    height: 65px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    gap: 30px;
+}
+
+.EmailButtom{
+    width: 150px;
+    height: 65px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+  
+}
+
+
 
 
 
