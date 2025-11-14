@@ -7,6 +7,8 @@
 
 body{
     background-color: #EBDEC4;
+    height: 100vh;
+    
 
 }
 header{
@@ -114,21 +116,84 @@ header{
     color: white;
     font-size: 20px; 
 }
+.centro{
+    display: flex;
+    background-color: tomato;
+    height: 62%;
+    
+}
+.Container1{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px 0px 147px;
+    gap:100px
+}
+.circulo-verde{
+    border-radius: 100%;
+    background-color: #C0C954;
+    width: 120px;
+    height: 120px;
+    margin: 0px 0px 0px 93px;
+}
 .homem{
     width: 120px;
     height: 120px;
 }
 .organico{
-    width: 300px;
-    height: 200px;
+    width: 299px;
+    height: 81px;
     background-color: white;
     display: flex;
-    justify-content: center;
+    padding: 15px;
     align-items: center;
     border-radius: 10px;
     color: black;
- 
+    border-style: groove;
+    gap: 10px;
 }
+.textoOrganico{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+}
+.tempo{
+    font-size: 10px;
+}
+.roxo{
+    margin: 0px 0px 0px 20px ;
+
+}
+.noventa-e-dois{
+    margin: 0px 0px 0px 89px;
+    width: 152px;
+    height: 174px;
+    background-color: #F2B7EB;
+    display: flex;   
+    flex-direction: column;
+    align-items:start;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+
+}
+.a92{
+    margin: 20px 0px 0px 0px ;
+    font-size: 45px;
+}
+.Container2{
+    background-color: black;
+    display: flex;
+    align-items: end;
+}
+.celular{
+    display: flex;
+    background-color: aqua;
+
+
+}
+
+
 
 
 
