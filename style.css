@@ -67,7 +67,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 30px;
     color: white;
     font-size: 18px;
     margin: 25px 8px 0px 0px;
@@ -244,7 +244,6 @@ header{
     }
     .info{
         font-family: "Jomolhari", serif;
-        
 
     }
     .linguagem{
@@ -315,19 +314,61 @@ header{
     .calendario{
         display: none;
     }
-
-   
-
-
-
-
-
-
-
-
-
+ 
 }
 
+@media (max-width: 414px){
+     body{
+        padding: 10px;
+        
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .suas{
+        display: flex;
+
+    }
+    .asterisco{
+        width: 18px;
+        height: 11px;
+        margin: 14px 0px 0px 24px;
+
+    }
+    .su{
+        text-align: center;
+        font-size: 12px;
+        margin: 14px 0px 0px 0px;
+    }
+    .info{
+        font-family: "Jomolhari", serif;
+        font-size: 12px;
+        margin: 14px 37px 0px 0px;
+    }
+    .linguagem{
+
+        display: none;
+    }
+    .login{
+        margin-left: 20%;
+    }
+
+    .Titulo-Principal{
+        display: flex;
+        width: 376px;
+        height: 80px;
+        font-size: 10px;
+        margin: 16px 0px 0px 0px;
+    }
+
+
+    
+
+}
 
 
 
